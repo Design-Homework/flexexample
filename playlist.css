@@ -1,0 +1,49 @@
+*{
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h2{
+    margin-bottom: 1em;
+}
+h3{
+    margin: 30px;
+    font-weight: normal;
+}
+
+.song{
+    width: 100vw;
+    height: 30%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    border-bottom: 1px solid black;
+}
+
+.song:nth-child(1){
+    border-top: 1px solid black;
+}
+
+.play{
+    width: 2.5em;
+    height: 2.5em;
+    background-color: orangered;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    order: 1;
+}
+
+.track{
+    flex-grow: 2;
+    order: 2;
+    margin: 20px;
+
+}
+.duration{
+    order: 3;
+}
+
+

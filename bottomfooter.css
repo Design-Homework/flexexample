@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.layout {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.top{
+  padding: 2rem;
+  background-color: rgb(40,36,36);
+  color: white;
+}
+.middle{
+  flex-grow: 1;
+  padding: 1em 2em;
+  background-color: lightgray;
+}
+.middle p{
+  margin-top: 1.5em;
+}
+
+
+.bottom{
+  padding: 1.5em 1em;
+  background-color: rgb(40,36,36);
+  color: white;
+}
